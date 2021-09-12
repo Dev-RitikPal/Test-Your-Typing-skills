@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="index.js"></script>
+
+    <title>Test your typing</title>
+</head>
+
+<body onload="paragraph()">
+
+    <center>
+        <h1 style="font-family: cursive; font-size: 50px;">Test Your Typing !!</h1>
+        <div class="timer_div">
+            <div class="clock"><span class="sec" id="seconds">60</span><br><span class="txt">Second</span></div>
+            <div class="clock"><span class="sec" id="word">0</span><br><span class="txt">Words/min</span></div>
+            <div class="clock"><span class="sec" id="accuracy">0%</span><br><span class="txt">Accuracy</span></div>
+        </div>
+        <div class="textdiv">
+            <span><br><br>
+                <div class="para_txt" id="para_txt">
+
+            </span>
+        </div>
+        <div class="result_div" id="result_div">
+            <h3><span id="result_heading">Your're turtle</span></h3>
+            <p class="result_text"><span> Well... You type with the speed of <span id="wpm">0</span> WPM (<span
+                        id="cpm">0</span> CPM)</span>.<br>
+                Your accuracy was <span id="acc">0</span>. It could be better!</span></p>
+            <button class="try_again_btn" id="get-link" onclick="reload_window()"><b>Try again</b></button>
+
+        </div>
+        </div>
+        <div class="input_div">
+            <input type="text" id="input_text" class="input_text" placeholder="Start Typing....." onclick="timefun()" />
+        </div>
+    </center>
+</body>
+
+</html>

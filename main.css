@@ -1,0 +1,122 @@
+body,html{
+   background-image: url("bg-pic.jfif");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: #fed042;
+}
+
+/* timer div */
+.timer_div{
+    margin-top: 10px;
+    height: 120px;
+    width: 50%;
+    /* background-color:white; */
+    /* border-radius: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:#fed042 ; */
+}
+
+.clock{
+    height: 113px;
+    width: 110px;
+    margin-top: 2px;
+    /* background-color: #fedb35; */
+    float: left;
+    margin-left: 105px;
+
+}
+
+.txt{
+    font-size: 23px;    
+    font-family: cursive;
+}
+
+.sec{
+    font-size: 60px;
+    font-family: cursive;
+}
+
+.para_txt{
+    font-size: 23px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: cursive;    
+}
+
+.textdiv{
+    margin-top: 10px;
+    height: 350px;
+    width: 50%;
+    background-color:white;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:#fed042 ;
+    /* box-shadow: 1px 1px 20px 0.5px #fed042; */
+}
+
+.input_text{
+    outline: none;
+    height: 68px;
+    margin-top: 30px;    
+    height: 70px;
+    width: 60%;
+    background-color:white;
+    border-style: solid;
+    border-width: 3px;
+    border-color:#fed042 ;
+    border-radius: 10px;
+    position: relative;
+    line-height: 28px;
+    font-size: 40px;  
+    bottom: 10px;
+}
+
+.result_div{
+    font-size: 23px;
+    margin-top: -20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: cursive; 
+    display: none;
+    
+}
+
+.less_then_30{
+    /* display: none; */
+    margin-top: -20px;
+}
+.result_text{
+    font-size: 25px;
+}
+
+.try_again_btn{
+    outline: none;
+    border: none;
+    font-size: 24px;
+    line-height: 14px;
+    cursor: pointer;
+    color: white;
+    font-family: cursive;
+    background-color: #fed042;
+    margin-top: 50px;
+    padding: 15px 30px;
+    border-radius: 50px;
+ 
+}
+.try_again_btn :hover{
+    color: black;
+    
+}
+/* .try_again_btn{
+   
+} */
+
+/* .more_then_30{
+    display: none;
+}
+.more_then_40{
+    display: none;
+} */
