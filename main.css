@@ -110,13 +110,15 @@ body,html{
     color: black;
     
 }
-/* .try_again_btn{
+@media only screen and (max-width: 1280px) {
    
-} */
-
-/* .more_then_30{
-    display: none;
+.clock{
+    margin-left: 63px;
 }
-.more_then_40{
-    display: none;
-} */
+.para_txt{
+    margin-top: -25px;
+}
+.mobile_msg{
+    display:contents;
+}
+}
