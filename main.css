@@ -122,3 +122,20 @@ body,html{
     display:contents;
 }
 }
+@media only screen and (max-width: 800px) {
+    body,html{
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: white;
+     }
+    .mobile_msg{
+        display: contents;
+        font-size: 30px;
+        font-family: cursive;
+    }
+    .timer_div,.para_txt,.textdiv,h1,.input_text{
+        display: none;
+    }
+
+}
