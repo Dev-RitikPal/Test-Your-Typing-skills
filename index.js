@@ -58,7 +58,7 @@ function timefun() {
                     // console.log(cpm[i])
                     cpm_num++
                 }
-                console.log(cpm_num)
+//                 console.log(cpm_num)
                 paragraph_div.style.display = "none"
                 result_text_div.style.display = "contents"
                 if (input_text_array.length < 30) {
@@ -68,10 +68,12 @@ function timefun() {
                     console.log(cpm_num)
                 }
                 else if (input_text_array.length > 30) {
-                    document.getElementById("result_heading").innerText = "You're T-rex"
+                    document.getElementById("result_heading").innerText = "You're T-Rex"
+                    document.getElementById("result_txt").innerText = "Nice... you typed with speed of "
                     document.getElementById("wpm").innerText = input_text_array.length;
                     document.getElementById("cpm").innerText = cpm_num
                     document.getElementById("acc").innerText = num + "%"
+                    document.getElementById("input_text").value = ""
                 }
             }
 
