@@ -84,10 +84,9 @@ body,html{
     display: none;
     
 }
-73px
 .less_then_30{
     /* display: none; */
-    margin-top: -20px;
+    margin-top: -20px;105px
 }
 .result_text{
     font-size: 25px;
@@ -110,6 +109,10 @@ body,html{
 .try_again_btn :hover{
     color: black;
     
+   
+}
+.mobile_msg{
+    display:none;
 }
 @media only screen and (max-width: 1280px) {
    
